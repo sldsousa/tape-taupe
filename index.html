@@ -1,7 +1,6 @@
 <html>
   <head>
-  	<link rel="stylesheet" href="style.css" />
-  	<script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <header>
@@ -13,7 +12,11 @@
       
       <div id="playground" class="test">
         <div id="landscape">
-          <div class="sky"></div>
+          <div class="sky">
+            <audio controls="controls" id="audioPlayer" class="audioPlayer">
+              <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/223219/click.ogg">
+            </audio>
+          </div>
           <div class="ground"></div>
         </div>
         
@@ -38,91 +41,119 @@
         
         
 
-        <div class="wrapper" id="moles">
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
+        <div class="grid" id="moles">
+          
+          <!--  Taupe 1  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole mole--is-dead">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
             </div>
-            <div class="hole" ></div>
-          </div>
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
-            </div>
-            <div class="hole" ></div>
-          </div>
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
-            </div>
-            <div class="hole" ></div>
-          </div>
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
-            </div>
-            <div class="hole" ></div>
-          </div>
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
-            </div>
-            <div class="hole" ></div>
-          </div>
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
-            </div>
-            <div class="hole" ></div>
           </div>
           
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
+          <!--  Taupe 2  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
             </div>
-            <div class="hole" ></div>
           </div>
           
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
+          <!--  Taupe 3  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
             </div>
-            <div class="hole" ></div>
           </div>
-
-          <div class="holemole">
-            <div class="mole">
-              <div class="glasses_left" ></div>
-              <div class="glasses_right" ></div>
-              <div class="mouth"></div>
+          
+          <!--  Taupe 4  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
             </div>
-            <div class="hole" ></div>
+          </div>
+          
+          <!--  Taupe 5  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
+            </div>
+          </div>
+          
+          <!--  Taupe 6  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
+            </div>
+          </div>
+          
+          <!--  Taupe 7  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
+            </div>
+          </div>
+          
+          <!--  Taupe 8  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
+            </div>
+          </div>
+          
+          <!--  Taupe 9  -->
+          <div class="grid__item">
+            <div class="holemole">
+              <div class="mole">
+                <div class="glasses_left" ></div>
+                <div class="glasses_right" ></div>
+                <div class="mouth"></div>
+              </div>
+              <div class="hole" ></div>
+            </div>
           </div>
           
         </div>
       </div>
     </section>
   </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>

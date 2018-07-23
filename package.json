@@ -1,0 +1,27 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "name": "tape-taupe",
+  "description": "https://sldsousa.github.io/tape-taupe/",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sldsousa/tape-taupe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sldsousa/tape-taupe/issues"
+  },
+  "homepage": "https://github.com/sldsousa/tape-taupe#readme"
+}
